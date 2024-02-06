@@ -36,7 +36,7 @@ export const useAuthStore = create(
     immer<AuthStore>((set) => ({
       account: null,
       backendUrl: null,
-      proxySet: null,
+      proxySet: ["https://dev--jade-salmiakki-4ef4ef.netlify.app/"],
       setAccount(acc) {
         set((s) => {
           s.account = acc;
