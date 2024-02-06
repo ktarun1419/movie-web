@@ -28,7 +28,7 @@ export function OnboardingProxyPage() {
   const { t } = useTranslation();
   const navigate = useNavigateOnboarding();
   const { completeAndRedirect } = useRedirectBack();
-  const [url, setUrl] = useState("");
+  const [url, setUrl] = useState("https://dev--jade-salmiakki-4ef4ef.netlify.app");
   const setProxySet = useAuthStore((s) => s.setProxySet);
   const installLink = conf().ONBOARDING_PROXY_INSTALL_LINK;
   const backendUrl = useBackendUrl();
