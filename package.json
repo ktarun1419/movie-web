@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://movie-web.app",
   "scripts": {
-    "dev": "vite",
+    "dev": "DISABLE_ESLINT_PLUGIN=true vite",
     "build": "vite build",
     "build:pwa": "cross-env VITE_PWA_ENABLED=true vite build",
     "test": "vitest run",
